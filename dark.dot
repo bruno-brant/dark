@@ -1,0 +1,105 @@
+strict digraph G {
+	
+	"1921" [color=yellow]
+	"1953" [color=red]
+	"1986" [color=green]
+	"2019" [color=blue]
+	"2052" [color=orange]
+
+	subgraph cluster_Nielsen {
+		label=Nielsen;
+
+		Noah [color=yellow]
+		Agnes [color=yellow]
+
+		Tronte [color=red]
+
+		Mads [color=green]
+		Ulrich [color=green]
+		Katharina [color=green]
+
+		Martha [color=blue label="Martha\n(Eva)"]
+		Magnus [color=blue]
+		Mikkel [color=blue label="Mikkel\n(Michael)"]
+
+		Noah -> Agnes [dir=both label="irmão"]
+		Agnes -> Tronte [label="mãe"]
+
+		Tronte -> Ulrich [label="pai"]
+		Tronte -> Mads [label="pai"]
+
+		Ulrich -> Mads [dir="both" label="irmão"]
+		Ulrich -> Katharina [label="casados"]
+		Ulrich -> Martha [label="pai"]
+		Ulrich -> Mikkel [label="pai"]
+		Ulrich -> Magnus [label="pai"]
+
+		Katharina -> Martha [label ="mãe"]
+		Katharina -> Mikkel [label ="mãe"]
+		Katharina -> Magnus [label ="mãe"]
+	}
+	
+	subgraph cluster_Kahnwald {
+		label = Kahnwald;
+
+		Ines [color=red]
+		Hanna [color=green label="Hanna\n(Katharina)"]
+		Jonas [color=blue label="Jonas\n(Adam)"]
+
+	    Ines -> Mikkel [label="mãe adotiva"]
+		Mikkel -> Hanna [dir="both" label="casados"] 
+		Hanna -> Jonas [label="mãe"]
+		Mikkel -> Jonas [label="pai"]
+	}
+	
+	subgraph cluster_Tiedemann {
+		label=Tiedemann;
+
+		Egon 
+		Claudia [color=red]
+		Regina [color=green]
+		Aleksander [color=green]
+		Bartoz [color=blue]
+
+		Egon -> Claudia [label="pai"]
+		Claudia -> Regina [label=mãe]
+		Aleksander -> Bartoz [label=pai]
+		Aleksander -> Regina [dir = both label=casados]
+	    Regina -> Bartoz [label="mãe"]  
+
+	}
+	
+	subgraph cluster_Obermann {
+		label=Obermann;
+	
+		Erik [color="blue"]
+		Killian [color="blue"]
+	}
+
+	subgraph cluster_Doppler {
+		label=Doppler;
+
+		Charlotte [color=green]
+		Peter [color=green]
+		Franziska [color=blue]
+		Elisabeth [color=blue]
+
+
+		Bernd -> Helge [label=pai]
+		Helge -> Peter [label=pai]
+		Charlotte -> Peter [label=casados]
+		Charlotte -> Franziska [label=mãe]
+		Charlotte -> Elisabeth [label=mãe]
+		
+		Peter -> Franziska [label=pai]
+		Peter -> Elisabeth [label=pai]
+
+		Elisabeth -> Charlotte [label=mãe]
+	}
+
+	Helena -> Katharina
+
+	Noah -> Charlotte [label=pai]
+
+	Tronte -> Regina [label=pai]
+}
