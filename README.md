@@ -1,7 +1,7 @@
 Dark
 ====
 
-A small joke: Dark family relationships build in PlantUml.
+A small joke: Dark family relationships built in Graphviz.
 
 Check the latest released pictures at [*releases*](https://github.com/bruno-brant/dark/releases/latest).
 
