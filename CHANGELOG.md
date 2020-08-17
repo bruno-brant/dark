@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bruno-brant/dark/compare/v1.0.0...v1.0.1) (2020-08-17)
+
+### Bug Fixes
+
+- correct readme.md ([9a92e69](https://github.com/bruno-brant/dark/commit/9a92e695b6f2a1ce4273344b3d8fc8cd2056f899))
+- point users to the released files ([5d90ea5](https://github.com/bruno-brant/dark/commit/5d90ea59d3263582c99c104d1507ab5891cb4804))
+
 # 1.0.0 (2020-08-17)
 
 ### Bug Fixes
