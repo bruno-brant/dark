@@ -23,15 +23,15 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     
-    - name: Setup Graphviz
+    - name: setup graphviz
       uses: ts-graphviz/setup-graphviz@v1
       
 
     # Runs a single command using the runners shell
-    - name: create output
+    - name: render the picture
       run: dot -Tjpg -o'dark.jpg'
     
-    - name: release
+    - name: create a release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       uses: ridedott/release-me-action@v2.2.64

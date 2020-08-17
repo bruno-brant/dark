@@ -3,12 +3,14 @@ Dark
 
 A small joke: Dark family relationships build in PlantUml.
 
-How to use
-----------
+Check the latest released pictures at [*releases*](https://github.com/bruno-brant/dark/releases/latest).
+
+How to render the picture
+-------------------------
 
 Install graphviz and call
 
 ```bash
 dot -o'dark.jpg' -Tjpg .\dark.dot
 ```
-To render as a jpg.
+to render as a jpg.
