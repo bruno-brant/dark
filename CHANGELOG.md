@@ -1,3 +1,13 @@
+## [1.0.3](https://github.com/bruno-brant/dark/compare/v1.0.2...v1.0.3) (2020-08-17)
+
+### Bug Fixes
+
+- corrects asset list ([95985ae](https://github.com/bruno-brant/dark/commit/95985aeee25a73ae0c42c2ebec29d3ff47cbf927))
+
+### Other
+
+- Merge branch 'master' of https://github.com/bruno-brant/dark ([ad31ab0](https://github.com/bruno-brant/dark/commit/ad31ab0cfa61880eb9386f2d5fcbcab55d986219))
+
 ## [1.0.2](https://github.com/bruno-brant/dark/compare/v1.0.1...v1.0.2) (2020-08-17)
 
 ### Bug Fixes
