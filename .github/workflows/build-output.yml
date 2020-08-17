@@ -30,6 +30,9 @@ jobs:
     # Runs a single command using the runners shell
     - name: render the picture
       run: dot -Tjpg -o'./dark.jpg'
+      
+    - name: list
+      run: ls        
     
     - name: create a release
       env:
