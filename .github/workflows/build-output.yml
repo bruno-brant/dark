@@ -43,7 +43,7 @@ jobs:
         # Bumps the package version and updates the repository package.json and package-lock.json or yarn-lock.yaml.
         #node-module: # optional, default is false
         # Configures the list of assets to attach to the release alongside the source code.
-        release-assets: dark.jpg
+        release-assets: ./dark.jpg
         # Configures the branches that Semantic Release will release to.
         #release-branches: # optional
 
