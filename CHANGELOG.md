@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/bruno-brant/dark/compare/v1.0.1...v1.0.2) (2020-08-17)
+
+### Bug Fixes
+
+- pipeline should publish assets ([142921b](https://github.com/bruno-brant/dark/commit/142921bdee15a97290303dda123da3da710e65c1))
+
+### Other
+
+- Merge branch 'master' of https://github.com/bruno-brant/dark ([0995ade](https://github.com/bruno-brant/dark/commit/0995adef8a3d54ffbdf75644eb6c1843f666114d))
+
 ## [1.0.1](https://github.com/bruno-brant/dark/compare/v1.0.0...v1.0.1) (2020-08-17)
 
 ### Bug Fixes
